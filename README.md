@@ -23,16 +23,16 @@ ZSL_Test(Dataset = 'CUBird' or 'NABird', splitmode = 'Easy' or 'Hard', ImgFtSour
 
 #### CUNBirds Easy split in Table1 
 --------------------------------------------------------------------------------
->> ```Matlab
-ZSL_Test('CUBird', 'Easy', 'ATN')  ### ATN means using groundtruth part annotation  
-```
+>> 
+**ZSL_Test('CUBird', 'Easy', 'ATN')**  ### ATN means using groundtruth part annotation  
+
 Dataset: CUB2011   Easy  ATN  
 Model: trained_models/CUBird_Easy_ATN.mat  
 Load Testing set  
 test_acc = 43.5049%  
 
 ----------------------------------------------------------------------
- >> ZSL_Test('CUBird', 'Easy', 'DET') ### DET means using the detected parts instead of GT parts. 
+ >> **ZSL_Test('CUBird', 'Easy', 'DET')** ### DET means using the detected parts instead of GT parts. 
 Dataset: CUB2011   Easy  DET  
 Model: trained_models/CUBird_Easy_DET.mat  
 Load Testing set  
@@ -40,14 +40,14 @@ test_acc = 37.5725%
 
 ####  NABirds Easy/Hard split in Table3
 --------------------------------------------------------------------------------
->> ZSL_Test('NABird', 'Easy')  ### Easy means category-share splitting 
+>> **ZSL_Test('NABird', 'Easy')**  ### Easy means category-share splitting 
 Dataset: NABird   Easy  DET  
 Model: trained_models/NABird_Easy_DET.mat  
 Load Testing set  
 test_acc = 30.5937% 
 
 --------------------------------------------------
->> ZSL_Test('NABird', 'Hard')   ### Hard means category-share splitting 
+>> **ZSL_Test('NABird', 'Hard')**   ### Hard means category-share splitting 
 Dataset: NABird   Hard  DET  
 Model: trained_models/NABird_Hard_DET.mat  
 Load Testing set  
