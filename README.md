@@ -24,7 +24,6 @@ ZSL_Test(Dataset = 'CUBird' or 'NABird', splitmode = 'Easy' or 'Hard', ImgFtSour
 #### CUNBirds Easy split in Table1 
 --------------------------------------------------------------------------------
 >> **ZSL_Test('CUBird', 'Easy', 'ATN')**  ### ATN means using groundtruth part annotation  
-
 Dataset: CUB2011   Easy  ATN  
 Model: trained_models/CUBird_Easy_ATN.mat  
 Load Testing set  
