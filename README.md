@@ -2,7 +2,7 @@
 Mohamed Elhoseiny*, Yizhe Zhu*, Han Zhang, Ahmed Elgammal, Link the head to the "peak'': Zero Shot Learning from Noisy Text descriptions at Part Precision, CVPR, 2017
 
 
-This code is implemente by  Yizhe Zhu and Mohamed Elhoseiny. 
+This code is implemented by Yizhe Zhu and Mohamed Elhoseiny. 
 
 Data:
 You can download the dataset [CUB2011](https://drive.google.com/open?id=0B_8vkk7CF-pwejFFcEp2R1FfRFU) and [NABird](https://drive.google.com/open?id=0B_8vkk7CF-pwOGhpQXFUUXZlQjg). 
