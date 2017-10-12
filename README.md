@@ -9,7 +9,7 @@ You can download the dataset [CUB2011](https://drive.google.com/open?id=0B_8vkk7
 
 Trianed Models:
 
-[Models](https://drive.google.com/open?id=0B_8vkk7CF-pwMU5QQUlUOTZFblU)  reproduce the results in the paper.  
+[Trained models](https://drive.google.com/open?id=0B_8vkk7CF-pwMU5QQUlUOTZFblU)  reproduce the results in the paper.  
 
 Raw wikipedia article data and detailed merging information of NABird can be obtained [here](https://drive.google.com/open?id=0B_8vkk7CF-pwckxLQTVkcDBadGc).
 
