@@ -81,7 +81,7 @@ elseif(strcmp(Dateset, 'NABird'))
 end
 
 %%%% Set parameter for training 
-MAX_ITER = 2;    %%%%   Number of iterations in a loop 
+MAX_ITER = 20;    %%%%   Number of iterations in a loop 
 MAX_LOOP = 300;   %%%%   Number of max loops. 
 MAX_FUNCEVL =100; %%%%   
 
