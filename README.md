@@ -23,14 +23,14 @@ ZSL_Test(Dataset = 'CUBird' or 'NABird', splitmode = 'Easy' or 'Hard', ImgFtSour
 
 #### CUNBirds Easy split in Table1 
 --------------------------------------------------------------------------------
->> **ZSL_Test('CUBird', 'Easy', 'ATN')**  ### ATN means using groundtruth part annotation  
+>> **ZSL_Test('CUBird', 'Easy', 'ATN')**  ### ATN means using groundtruth part annotation  
 Dataset: CUB2011   Easy  ATN  
 Model: trained_models/CUBird_Easy_ATN.mat  
 Load Testing set  
 test_acc = 43.5049%  
 
 ----------------------------------------------------------------------
- >> **ZSL_Test('CUBird', 'Easy', 'DET')** ### DET means using the detected parts instead of GT parts. 
+ >> **ZSL_Test('CUBird', 'Easy', 'DET')** ### DET means using the detected parts instead of GT parts.   
 Dataset: CUB2011   Easy  DET  
 Model: trained_models/CUBird_Easy_DET.mat  
 Load Testing set  
@@ -38,14 +38,14 @@ test_acc = 37.5725%
 
 ####  NABirds Easy/Hard split in Table3
 --------------------------------------------------------------------------------
->> **ZSL_Test('NABird', 'Easy')**  ### Easy means category-share splitting 
+>> **ZSL_Test('NABird', 'Easy')**  ### Easy means category-share splitting   
 Dataset: NABird   Easy  DET  
 Model: trained_models/NABird_Easy_DET.mat  
 Load Testing set  
 test_acc = 30.5937% 
 
 --------------------------------------------------
->> **ZSL_Test('NABird', 'Hard')**   ### Hard means category-share splitting 
+>> **ZSL_Test('NABird', 'Hard')**   ### Hard means category-share splitting   
 Dataset: NABird   Hard  DET  
 Model: trained_models/NABird_Hard_DET.mat  
 Load Testing set  
@@ -55,7 +55,7 @@ test_acc = 8.1349%
 
 Training
 ---------
->>ZSL_Train(Dateset, Splitmode, ImgFtSource, lambda1, lambda2, GPU_mode)
+>>ZSL_Train(Dateset, Splitmode, ImgFtSource, lambda1, lambda2, GPU_mode)  
 is the command  to train the model using a particular setting.   
 % For example ZSL_Train('CUBird', 'Easy', 'DET', 100000, 10000, true), trains on the CUBirds dataset on the Easy split and using the detected part boxes. 
 , lambda1=100000, and lambda2=10000, and GPU_mode=true (using GPU mode for training). If false, the training is done on CPU.
