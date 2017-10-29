@@ -1,4 +1,4 @@
-# ZSLPP
+# ZSL_PP
 Mohamed Elhoseiny*, Yizhe Zhu*, Han Zhang, Ahmed Elgammal, Link the head to the "peak'': Zero Shot Learning from Noisy Text descriptions at Part Precision, CVPR, 2017
 
 
