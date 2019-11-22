@@ -11,9 +11,10 @@ Trianed Models:
 
 [Trained models](https://drive.google.com/open?id=0B_8vkk7CF-pwMU5QQUlUOTZFblU)  reproduce the results in the paper.  
 
-Raw wikipedia article data and detailed merging information of NABird can be obtained [here](https://drive.google.com/open?id=0B_8vkk7CF-pwckxLQTVkcDBadGc).
+## Raw wikipedia article data:
+Raw wikipedia article data of CUBird and NABird, as well as detailed merging information of NABird,  can be obtained [here](https://drive.google.com/open?id=0B_8vkk7CF-pwckxLQTVkcDBadGc).
 
-Testing, reproducing the results in the paper
+# Testing, reproducing the results in the paper
 ---------------------------------------------
 
 ZSL_Test(Dataset = 'CUBird' or 'NABird', splitmode = 'Easy' or 'Hard', ImgFtSource = 'DET' or 'ATN')
