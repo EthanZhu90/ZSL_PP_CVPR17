@@ -4,15 +4,14 @@ Mohamed Elhoseiny*, Yizhe Zhu*, Han Zhang, Ahmed Elgammal, Link the head to the 
 
 This code is implemented by Yizhe Zhu and Mohamed Elhoseiny. 
 
-Data:
-You can download the dataset [CUB2011](https://drive.google.com/open?id=0B_8vkk7CF-pwejFFcEp2R1FfRFU) and [NABird](https://drive.google.com/open?id=0B_8vkk7CF-pwOGhpQXFUUXZlQjg). 
-
-Trianed Models:
-
-[Trained models](https://drive.google.com/open?id=0B_8vkk7CF-pwMU5QQUlUOTZFblU)  reproduce the results in the paper.  
+## Processed feature Data:
+You can download the dataset [CUB2011](https://drive.google.com/open?id=0B_8vkk7CF-pwejFFcEp2R1FfRFU) and [NABird](https://drive.google.com/open?id=0B_8vkk7CF-pwOGhpQXFUUXZlQjg).
 
 ## Raw wikipedia article data:
 Raw wikipedia article data of CUBird and NABird, as well as detailed merging information of NABird,  can be obtained [here](https://drive.google.com/open?id=0B_8vkk7CF-pwckxLQTVkcDBadGc).
+
+## Trianed Models:
+[Trained models](https://drive.google.com/open?id=0B_8vkk7CF-pwMU5QQUlUOTZFblU)  reproduce the results in the paper.  
 
 # Testing, reproducing the results in the paper
 ---------------------------------------------
